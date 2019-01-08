@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link href="/style.css" type="text/css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body>
+		<div id="container" class="container-fluid">
+			<h3>API Project: File Metadata Microservice</h3>
+			<form action="/api/upload" method="POST" class="form-inline"  enctype="multipart/form-data">
+			<div class="form-row">
+				<div class="col">
+					<h4>Step 1: Choose file</h4>
+					<input type="file" class="form-control-file btn btn-primary" name="file">
+ 
+				</div>
+				<div class="col">
+					<h4>Step 2: Upload file size</h4>
+					<input class="btn btn-primary" type="submit" name="uploadFile" value="Get File Size">
+				</div>
+			</div>
+			</form>
+		</div>
+	</body>
+</html>
