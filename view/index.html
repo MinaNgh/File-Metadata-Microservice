@@ -6,13 +6,15 @@
 	<body>
 		<div id="container" class="container-fluid">
 			<h3>API Project: File Metadata Microservice</h3>
-			<form action="/api/upload" method="POST" class="form-inline"  enctype="multipart/form-data">
-			<div class="form-row">
+			<form action="/api/upload" method="POST" class="form-row"  enctype="multipart/form-data">
+			<div class="row">
 				<div class="col">
 					<h4>Step 1: Choose file</h4>
-					<input type="file" class="form-control-file btn btn-primary" name="file">
- 
-				</div>
+					
+					<input type="file" class="form-control-file btn btn-file  " name="file" required="required">
+ 						
+				</div><br/>
+
 				<div class="col">
 					<h4>Step 2: Upload file size</h4>
 					<input class="btn btn-primary" type="submit" name="uploadFile" value="Get File Size">
